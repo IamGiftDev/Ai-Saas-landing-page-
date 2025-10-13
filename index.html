@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alasa Gift | Web3 Portfolio</title>
+  <!-- TailwindCSS CDN for fast styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f0f1a;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    /* Background Audio Player */
+    #background-audio {
+      display: none; /* Hidden, auto plays */
+    }
+
+    /* Custom Card Styles */
+    .service-card {
+      background: #1a1a2e;
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+
+    /* Social Icons Hover */
+    .social-icon:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s;
+    }
+
+    /* Profile Image */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00f6ff;
+    }
+  </style>
+</head>
+<body class="relative">
+
+  <!-- Background Audio -->
+  <audio id="background-audio" autoplay loop>
+    <source src="assets/audio/file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Header / Navbar -->
+  <header class="flex justify-between items-center p-6 bg-gradient-to-r from-purple-900 to-blue-900 sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-cyan-400">Alasa Gift</h1>
+    <nav class="space-x-4">
+      <a href="#services" class="hover:text-cyan-200">Services</a>
+      <a href="#portfolio" class="hover:text-cyan-200">Portfolio</a>
+      <a href="#contact" class="hover:text-cyan-200">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between p-10 md:p-20 bg-gradient-to-r from-purple-900 to-blue-800">
+    <div class="md:w-1/2 text-center md:text-left space-y-4">
+      <img src="assets/images/profile-placeholder.png" alt="Profile" class="profile-img mx-auto md:mx-0" />
+      <h2 class="text-4xl md:text-5xl font-bold text-cyan-400">Hi, I'm Alasa Gift</h2>
+      <p class="text-gray-300 text-lg md:text-xl">
+        A Web3 & AI enthusiast. I create cutting-edge AI, SaaS, DeFi, and Game UI solutions for modern startups and blockchain projects.
+      </p>
+    </div>
+    <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+      <img src="assets/images/hero-illustration.png" alt="AI / Web3 Illustration" class="w-3/4 md:w-full" />
+    </div>
+  </section>
+
+  <!-- Social Links -->
+  <section class="flex justify-center space-x-6 py-6 bg-gradient-to-r from-blue-800 to-purple-900">
+    <a href="https://twitter.com/" target="_blank" class="social-icon">
+      <img src="assets/images/icon-twitter.svg" alt="Twitter" class="w-8 h-8"/>
+    </a>
+    <a href="#" target="_blank" class="social-icon">
+      <img src="assets/images/icon-farcaster.svg" alt="Farcaster" class="w-8 h-8"/>
+    </a>
+    <a href="https://wa.me/" target="_blank" class="social-icon">
+      <img src="assets/images/icon-discord.svg" alt="WhatsApp" class="w-8 h-8"/>
+    </a>
+    <a href="#" target="_blank" class="social-icon">
+      <img src="assets/images/icon-github.svg" alt="GitHub" class="w-8 h-8"/>
+    </a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="p-10 md:p-20 bg-gray-900 space-y-10">
+    <h2 class="text-3xl md:text-4xl font-bold text-cyan-400 text-center mb-10">Services I Offer</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="service-card">
+        <h3 class="text-xl font-semibold mb-2">AI Startup Landing Page Template</h3>
+        <p class="text-gray-300">Showcase AI tools, SaaS products, or software services for startups.</p>
+      </div>
+      <div class="service-card">
+        <h3 class="text-xl font-semibold mb-2">Crypto / DeFi Landing Page Template</h3>
+        <p class="text-gray-300">Promote token sales, DeFi dashboards, or blockchain apps.</p>
+      </div>
+      <div class="service-card">
+        <h3 class="text-xl font-semibold mb-2">Game Design UI Kits</h3>
+        <p class="text-gray-300">AI Cyberpunk Game UI, Web3 Game UI, Casual Mobile Game UI Pack.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Projects Section -->
+  <section id="portfolio" class="p-10 md:p-20 bg-gradient-to-r from-blue-900 to-purple-900 space-y-10">
+    <h2 class="text-3xl md:text-4xl font-bold text-cyan-400 text-center mb-10">Portfolio / Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="service-card">
+        <h3 class="text-lg font-semibold mb-2">AI Startup Landing Page</h3>
+        <p class="text-gray-300">Live demo or screenshot placeholder</p>
+      </div>
+      <div class="service-card">
+        <h3 class="text-lg font-semibold mb-2">DeFi Dashboard Template</h3>
+        <p class="text-gray-300">Show token analytics, staking interface, or DeFi app design.</p>
+      </div>
+      <div class="service-card">
+        <h3 class="text-lg font-semibold mb-2">Web3 / Game UI Kits</h3>
+        <p class="text-gray-300">Cyberpunk, Mobile, or Web3 Game UI kits.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-10 md:p-20 bg-gray-900 space-y-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-cyan-400 mb-6">Contact Me</h2>
+    <p class="text-gray-300 mb-4">
+  Grab your ready-made Web3, AI, or Game UI template now and launch your project in style!
+</p>
+    <a href="mailto:iamgiftdev@outlook.com" class="px-6 py-3 bg-cyan-500 rounded-lg font-semibold hover:bg-cyan-400 transition">Email Me</a>
+  </section>
+
+  <footer class="text-center p-6 bg-gradient-to-r from-purple-900 to-blue-900">
+    &copy; 2025 Alasa Gift. All rights reserved.
+  </footer>
+
+</body>
+</html>    

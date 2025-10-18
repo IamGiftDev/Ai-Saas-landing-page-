@@ -2,7 +2,8 @@
 
 ### “Empower Your Business with Smart AI Automation.” 🤖  
 
-![AI Hub Preview](assets/images/preview.png)  
+![AI Hub Preview]
+
 *Futuristic dark-mode landing page with purple + cyan glow.*
 
 Welcome to **AI Hub**, your all-in-one **AI SaaS landing page** template — sleek, dark, and futuristic.  

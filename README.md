@@ -2,7 +2,7 @@
 
 ### “Empower Your Business with Smart AI Automation.” 🤖  
 
-![AI Hub Preview]
+!AI Hub Preview
 
 *Futuristic dark-mode landing page with purple + cyan glow.*
 

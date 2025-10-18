@@ -1,5 +1,4 @@
---- 
-# 🚀 AI SaaS Landing Page Template
+#🚀 AI SaaS Landing Page Template
 **Author:** Alasa Gift  
 **Built with:** Tailwind CSS + AOS Animation  
 **Version:** 1.0  

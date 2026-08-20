@@ -1,6 +1,6 @@
 # ⚡ AI Hub – Futuristic AI SaaS Landing Page  
 
-### “Empower Your Business with Smart AI Automation.” 🤖  
+### Empower Your Business with Smart AI Automation. 🤖  
 
 !AI Hub Preview
 
